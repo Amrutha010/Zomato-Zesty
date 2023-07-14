@@ -1,0 +1,10 @@
+<h2>Orders</h2>
+<div *ngFor="let order of orders">
+  <div>
+    <h3>Order ID: {{ order.id }}</h3>
+    <p>User ID: {{ order.user_id }}</p>
+    <p>Dishes: {{ order.dishes }}</p>
+    <p>Total Price: {{ order.total_price }}</p>
+    <p>Status: {{ order.status }}</p>
+  </div>
+</div>
